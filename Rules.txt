@@ -1,0 +1,6 @@
+1. On the begining of the game player rolls the dices. 
+2. IF player rolls number 1 on one of the dices then he lost the current score and then is the player 2 turn. 
+3. IF player rolls number 6 on both dices then he lost current score and also global score. 
+4. When player push the hold button, the current score will add to global score. 
+5. By default the game is set to 100 points which means that the player with 100 global points or higher is the winner.
+6. There is a possibility to change the winning score in the bottom input field. Just type the score in it. 

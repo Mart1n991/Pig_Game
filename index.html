@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../Pig_Game/style.css">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/deced636a5.js" crossorigin="anonymous"></script>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>Pig Game</title>
+</head>
+
+<body>
+    <div class="game-area">
+        <div class="wrapper">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">74</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">9</div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn-new"><i class="fas fa-plus-circle"></i>New Game</button>
+        <button class="btn-roll"><i class="fas fa-redo"></i>Roll Dice</button>
+        <button class="btn-hold"><i class="fas fa-stop-circle"></i>Hold</button>
+
+        <img src="../Pig_Game/img/dice-1.png" alt="dice" class="dice dice-0" id="dice-0">
+        <img src="../Pig_Game/img/dice-1.png" alt="dice" class="dice dice-1" id="dice-1">
+
+        <div class="input-field">
+            <p class="paragraph">Write the winning score</p>
+            <input type="text" placeholder="Final Score" id="input">
+        </div>
+
+
+    </div>
+
+
+
+    <!--JavaScript-->
+    <script src="../Pig_Game/apps.js"></script>
+</body>
+
+</html>
